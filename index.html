@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<script>var _ez_ab_test = 'mod53-c'</script>
+<script>var __ezHttpConsent={setByCat:function(src,tagType,attributes,category,force){var setScript=function(){if(force||window.ezTcfConsent[category]){var scriptElement=document.createElement(tagType);scriptElement.src=src;attributes.forEach(function(attr){for(var key in attr){if(attr.hasOwnProperty(key)){scriptElement.setAttribute(key,attr[key]);}}});var firstScript=document.getElementsByTagName(tagType)[0];firstScript.parentNode.insertBefore(scriptElement,firstScript);}};if(force||(window.ezTcfConsent&&window.ezTcfConsent.loaded)){setScript();}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){setScript();}else{console.error("cannot get ez consent data");force=true;setScript();}});}else{force=true;setScript();console.error("getEzConsentData is not a function");}},};</script>
+<script>var ezTcfConsent=window.ezTcfConsent?window.ezTcfConsent:{loaded:false,store_info:false,develop_and_improve_services:false,measure_ad_performance:false,measure_content_performance:false,select_basic_ads:false,create_ad_profile:false,select_personalized_ads:false,create_content_profile:false,select_personalized_content:false,understand_audiences:false,use_limited_data_to_select_content:false,};function getEzConsentData(){return new Promise(function(resolve){document.addEventListener("ezConsentEvent",function(event){var ezTcfConsent=event.detail.ezTcfConsent;resolve(ezTcfConsent);});});}</script>
+<script>function _setEzCookies(ezConsentData){var cookies=[{name:"ezoadgid_523231",value:"-1; Path=/; Domain=suikagame.com; Expires=Sat, 03 Feb 2024 23:28:52 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezoref_523231",value:"; Path=/; Domain=suikagame.com; Expires=Sun, 04 Feb 2024 00:58:52 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezosuibasgeneris-1",value:"55940896-3242-4a31-44ae-a46687da317b; Path=/; Domain=suikagame.com; Expires=Sun, 02 Feb 2025 22:58:52 UTC; Secure; SameSite=None",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezoab_523231",value:"mod53-c; Path=/; Domain=suikagame.com; Expires=Sun, 04 Feb 2024 00:58:52 UTC",tcfCategory:"store_info",isEzoic:"true",},{name:"active_template::523231",value:"pub_site.1707001132; Path=/; Domain=suikagame.com; Expires=Mon, 05 Feb 2024 22:58:52 UTC",tcfCategory:"store_info",isEzoic:"true",},{name:"ezopvc_523231",value:"1; Path=/; Domain=suikagame.com; Expires=Sat, 03 Feb 2024 23:28:52 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"lp_523231",value:"https://suikagame.com/; Path=/; Domain=suikagame.com; Expires=Sat, 03 Feb 2024 23:28:52 UTC",tcfCategory:"store_info",isEzoic:"true",},{name:"ezovuuidtime_523231",value:"1707001132; Path=/; Domain=suikagame.com; Expires=Mon, 05 Feb 2024 22:58:52 UTC",tcfCategory:"understand_audiences",isEzoic:"true",},{name:"ezovuuid_523231",value:"611f376c-fef0-4eba-62e4-79e39f3fc7b2; Path=/; Domain=suikagame.com; Expires=Sat, 03 Feb 2024 23:28:52 UTC",tcfCategory:"understand_audiences",isEzoic:"true",}];for(var i=0;i<cookies.length;i++){var cookie=cookies[i];if(ezConsentData&&ezConsentData.loaded&&ezConsentData[cookie.tcfCategory]){document.cookie=cookie.name+"="+cookie.value;}}}
+if(window.ezTcfConsent&&window.ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else if(typeof getEzConsentData==="function"){getEzConsentData().then(function(ezTcfConsent){if(ezTcfConsent&&ezTcfConsent.loaded){_setEzCookies(window.ezTcfConsent);}else{console.error("cannot get ez consent data");_setEzCookies(window.ezTcfConsent);}});}else{console.error("getEzConsentData is not a function");_setEzCookies(window.ezTcfConsent);}</script>
+<script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=false;__ez.queue=function(){var e=0,i=0,t=[],n=!1,o=[],r=[],s=!0,a=function(e,i,n,o,r,s,a){var l=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,d=this;this.name=e,this.funcName=i,this.parameters=null===n?null:p(n)?n:[n],this.isBlock=o,this.blockedBy=r,this.deleteWhenComplete=s,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.fWindow=l,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),d.isInitialized=!0,d.isComplete=!0,f("... func.apply: "+e);var i=d.funcName.split("."),n=null,o=this.fWindow||window;i.length>3||(n=3===i.length?o[i[0]][i[1]][i[2]]:2===i.length?o[i[0]][i[1]]:o[d.funcName]),null!=n&&n.apply(null,this.parameters),!0===d.deleteWhenComplete&&delete t[e],!0===d.isBlock&&(f("----- F'D: "+d.name),u())}},l=function(e,i,t,n,o,r,s){var a=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,l=this;this.name=e,this.path=i,this.async=o,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=s,this.fWindow=a,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)&&"banger.js"!==this.name?window.__ezScriptHost+e:e},this.process=function(){l.isInitialized=!0,f("... file = "+e);var i=this.fWindow?this.fWindow.document:document,t=i.createElement("script");t.src=this.getSrc(this.path),!0===o?t.async=!0:!0===r&&(t.defer=!0),t.onerror=function(){var e={url:window.location.href,name:l.name,path:l.path,user_agent:window.navigator.userAgent};"undefined"!=typeof _ezaq&&(e.pageview_id=_ezaq.page_view_id);var i=encodeURIComponent(JSON.stringify(e)),t=new XMLHttpRequest;t.open("GET","//g.ezoic.net/ezqlog?d="+i,!0),t.send(),f("----- ERR'D: "+l.name),l.isError=!0,!0===l.isBlock&&u()},t.onreadystatechange=t.onload=function(){var e=t.readyState;f("----- F'D: "+l.name),e&&!/loaded|complete/.test(e)||(l.isComplete=!0,!0===l.isBlock&&u())},i.getElementsByTagName("head")[0].appendChild(t)}},d=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function c(e){!0!==h(e)&&0!=s&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return f(e.name+" blocked = TIME DELAY!"),!0;if(p(e.blockedBy))for(var i=0;i<e.blockedBy.length;i++){var o=e.blockedBy[i];if(!1===t.hasOwnProperty(o))return f(e.name+" blocked = "+o),!0;if(!0===e.proceedIfError&&!0===t[o].isError)return!1;if(!1===t[o].isComplete)return f(e.name+" blocked = "+o),!0}return!1}function f(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function u(){++e>200||(f("let's go"),m(o),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?f(t.name+": error"):!0===t.isComplete?f(t.name+": complete already"):!0===t.isInitialized&&f(t.name+": initialized already"):t.process()}}function p(e){return"[object Array]"==Object.prototype.toString.call(e)}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,f("TDELAY -----"),u()}),5e3)}),!1),{addFile:function(e,i,n,s,a,d,h,f,u){var m=new l(e,i,n,s,a,d,h,u);!0===f?o[e]=m:r[e]=m,t[e]=m,c(m)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,c(n)},addFunc:function(e,n,s,l,d,h,f,u,m,p){!0===h&&(e=e+"_"+i++);var w=new a(e,n,s,l,d,f,u,p);!0===m?o[e]=w:r[e]=w,t[e]=w,c(w)},addDelayFunc:function(e,i,n){var o=new a(e,i,n,!1,[],!0,!0);o.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),r[e]=o,t[e]=o,c(o)},items:t,processAll:u,setallowLoad:function(e){s=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new d(e,!0);f("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=195-0&cb=4', true, [], true, false, true, false);__ez.queue.addFile('/parsonsmaize/abilene.js', '/parsonsmaize/abilene.js?gcb=195-0&cb=32', true, [], true, false, true, false);</script>
+<script data-ezscrex="false" data-cfasync="false">__ez.ssaf=[];__ez.sswp=4;__ez.ssv=725358;__ez.sshsdef=false;</script>
+<script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=195-0&cb=9', false, [], true, false, true, false);</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">window._ezaq = Object.assign({}, typeof window._ezaq !== "undefined" ? window._ezaq : {}, {"ad_cache_level":1,"domain_id":523231,"ezcache_level":2,"ezcache_skip_code":0,"has_bad_image":0,"has_bad_words":0,"is_sitespeed":1,"lt_cache_level":0,"page_view_id":"7c63670e-8914-4ce3-686b-85648be58c43","response_size_orig":30764,"response_time_orig":1,"template_id":134,"url":"https://suikagame.com/","visit_uuid":"611f376c-fef0-4eba-62e4-79e39f3fc7b2","word_count":458,"worst_bad_word_level":0});__ez.queue.markLoaded('ezaqBaseReady');</script>
+<link rel="preconnect" href="//www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="//cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="//fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="//use.fontawesome.com" crossorigin>
+<link rel="preconnect" href="//serving.lookverin.com" crossorigin>
+<link rel="preconnect" href="//go.ezoic.net" crossorigin>
+<script type="text/javascript">(function(){function storageAvailable(type){var storage;try{storage=window[type];var x='__storage_test__';storage.setItem(x,x);storage.removeItem(x);return true;}
+catch(e){return e instanceof DOMException&&(e.code===22||e.code===1014||e.name==='QuotaExceededError'||e.name==='NS_ERROR_DOM_QUOTA_REACHED')&&(storage&&storage.length!==0);}}
+function remove_ama_config(){if(storageAvailable('localStorage')){localStorage.removeItem("google_ama_config");}}
+remove_ama_config()})()</script>
+<script type="text/javascript">var ezoicTestActive = true</script>
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">window._ezaq = Object.assign({}, typeof window._ezaq !== "undefined" ? window._ezaq : {}, {"ab_test_id":"mod53-c","ad_cache_level":1,"ad_count_adjustment":0,"ad_lazyload_version":0,"ad_load_version":101,"ad_location_ids":"","adx_ad_count":0,"ai_placeholder_cache_level":1,"ai_placeholder_placement_cnt":-1,"bidder_method":1,"bidder_version":3,"city":"","country":"US","days_since_last_visit":-1,"display_ad_count":0,"domain_id":523231,"ds_adsize_opt_id":-1,"engaged_time_visit":0,"ezcache_level":2,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"has_bad_image":0,"has_bad_words":0,"iab_category":"","iab_category_0":"680","iab_category_1":"239","is_embed":false,"is_from_recommended_pages":false,"is_return_visitor":false,"is_sitespeed":1,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"max_ads":0,"metro_code":0,"optimization_version":1,"page_ad_positions":"","page_view_count":0,"page_view_id":"7c63670e-8914-4ce3-686b-85648be58c43","position_selection_id":0,"postal_code":"","pv_event_count":0,"response_size_orig":30764,"response_time_orig":1,"serverid":"i-02487ae50365094e7","state":"","sub_page_ad_positions":"","t_epoch":1707001132,"template_id":134,"time_on_site_visit":0,"url":"https://suikagame.com/","visit_uuid":"611f376c-fef0-4eba-62e4-79e39f3fc7b2","weather_precipitation":0,"weather_summary":"","weather_temperature":0,"word_count":458,"worst_bad_word_level":0});__ez.queue.markLoaded('ezaqReady');</script>
+<script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer>__ez.queue.addFile('/parsonsmaize/mulvane.js', '/parsonsmaize/mulvane.js?gcb=195-0&cb=6', true, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/parsonsmaize/olathe.js', '/parsonsmaize/olathe.js?gcb=195-0&cb=23', false, ['/parsonsmaize/abilene.js','/parsonsmaize/mulvane.js'], true, false, true, false);__ez.queue.addFile('/porpoiseant/et.js', '/porpoiseant/et.js?gcb=195-0&cb=2', false, [], true, false, true, false);!function(){var e=function(e,i,t){var o=[],n=null;return{Add:function(t,d){var a=arguments.length>2&&void 0!==arguments[2]?arguments[2]:null;if(__ez.dot.isDefined(t)&&__ez.dot.isValid(d))if(n==t&&o.length>0&&o[o.length-1].data.length+d.length<=5)o[o.length-1].data=o[o.length-1].data.concat(__ez.dot.dataToStr(d));else{var _={type:e,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(d)};_[i]=t,a&&a.hasOwnProperty("impression_id")&&a.hasOwnProperty("ad_unit")&&(_.impression_id=a.impression_id.toString(),_.unit=a.ad_unit),o.push(_),n=t}},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(o)&&o.length>0)for(;o.length>0;){var e=5;e>o.length&&(e=o.length);var i=o.splice(0,e),n=__ez.dot.getURL(t)+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(i));__ez.dot.Fire(n)}o=[]}}}};__ez.vep=e("video","video_impression_id","/detroitchicago/grapefruit.gif"),__ez.vaep=e("video-ad","video_ad_impression_id","/porpoiseant/lemon.gif"),__ez.osvaep=e("outstream-video-ad","video_ad_impression_id","/porpoiseant/tangerine.gif")}();</script><script data-ezscrex="false" data-cfasync="false" data-pagespeed-no-defer>__ez.queue.addFile('/detroitchicago/wichita.js', '/detroitchicago/wichita.js?gcb=195-0&cb=12', false, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=195-0&cb=7', false, ['/parsonsmaize/abilene.js'], true, false, true, false);__ez.queue.addFile('/detroitchicago/vista.js', '/detroitchicago/vista.js?gcb=195-0&cb=6', false, ['/parsonsmaize/abilene.js'], true, false, true, false);</script><base href="">
+    
+
+    <title>Suika Game - Play Watermelon Game Online [English Version]</title>
+    <meta name="description" content="Suika Game is also known as Watermelon game in English language. Suika is a Fruit Tetris game. In this game, You have to touch two same fruits to make a larger fruit.">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1,maximum-scale=1">
+    <link rel="icon" href="favicons/res-favicon.ico">
+    <link rel="canonical" href="https://suikagame.com">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="apple-touch-icon" href="favicons/res-suikaicon.png">
+    <meta name="apple-mobile-web-app-title" content="Suika Game">
+    <meta name="format-detection" content="telephone=no">
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-HJPLHWFPLJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HJPLHWFPLJ');
+</script>
+
+
+
+    <script src="js/dist-axios.min.js"></script>
+    
+    <!-- webkit on 360 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <!-- edge on IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- fullscreen -->
+    <meta name="full-screen" content="yes">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="360-fullscreen" content="true">
+
+    <!-- screen orientation on some browser -->
+    <meta name="screen-orientation" content="">
+    <meta name="x5-orientation" content="">
+
+    <meta name="x5-page-mode" content="app">
+
+    <meta property="og:title" content="Suika Game">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://suikagame.com">
+    <meta property="og:image" content="https://suikagame.com/public/res/suika-ogp.png">
+    <meta property="og:description" content="Suika Game is also known as Watermelon game in English language. Suika is a Fruit Tetris game. In this game, You have to touch two same fruits to make a larger fruit.">
+    <meta property="og:site_name" content="Suika Game">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="suikagame.com">
+    <meta name="twitter:title" content="Suika Game">
+    <meta name="twitter:description" content="Suika Game is also known as Watermelon game in English language. Suika is a Fruit Tetris game. In this game, You have to touch two same fruits to make a larger fruit.">
+    <meta name="twitter:image" content="https://suikagame.com/public/res/suika-ogp.png">
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/public-style-mobile.css">
+    <script src="js/layer-jquery.min.js"></script>
+    <script src="js/layer-layer.min.js"></script>
+    <link href="css/layer-layer.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/js-bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;600;900&amp;display=swap" rel="stylesheet">
+    <script src="js/public-hammer.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+    <script async="" src="js/player-adlook.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var ezoTemplate = 'pub_site';
+var ezouid = '1';
+var ezoFormfactor = '1';
+</script><script data-ezscrex="false" type="text/javascript">
+var soc_app_id = '0';
+var did = 523231;
+var ezdomain = 'suikagame.com';
+var ezoicSearchable = 1;
+</script>
+<script data-ezscrex="false" data-pagespeed-no-defer data-cfasync="false">function create_ezolpl() {
+	var d = new Date();
+	d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
+	var expires = "expires=" + d.toUTCString();
+	__ez.ck.setByCat(
+	  "ezux_lpl_523231",
+	  new Date().getTime() +
+		"|" +
+		_ezaq.page_view_id +
+		"|" +
+		_ezaq.is_return_visitor +
+		"; " +
+		expires,
+	  "understand_audiences",
+	  false
+	);
+  }
+  function attach_ezolpl() {
+	if (document.readyState === "complete") {
+	  create_ezolpl();
+	  return;
+	}
+	window.addEventListener("load", create_ezolpl);
+  }  
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", null, false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script></head>
+
+
+
+<body style="margin: 0; background: #FFD59D; text-align:center;">
+
+   <script>
+
+// Function to add the HTML within the starting of <section class="game-area">
+function addHTMLWithinGameArea() {
+  // Check the screen width
+  const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+  // Check if the screen width is greater than 1000px
+  if (screenWidth > 1000) {
+    // Create the div element with the specified HTML content
+    const sideDiv = document.createElement('div');
+    sideDiv.classList.add('side');
+
+    sideDiv.innerHTML = `
+<header>
+    <!-- <img src="/public/res/raw-assets/50/5035266c-8df3-4236-8d82-a375e97a0d9c.png"> -->
+<div class="logocontainer"><div class="logo-suika-wrapper"><a class="logo logo-suika" href="/" title="Play Free Suika, a Popular Online Fruit Game" rel="home">
+
+
+      <section class="side-left">
+      <!-- Ezoic - sidebar - sidebar -->
+<div id="ezoic-pub-ad-placeholder-105"> 
+<!-- End Ezoic - sidebar - sidebar -->
+
+<div class="character">
+
+        <h2>Fruits
+        <ul class="chara container">
+<li class="col-6 col1"><img src="/public/res/raw-assets/ad/ad16ccdc-975e-4393-ae7b-8ac79c3795f2.png"><span>Cherries<div class="points">2
+<li class="col-6"><img src="/public/res/raw-assets/0c/0cbb3dbb-2a85-42a5-be21-9839611e5af7.png"><span>Strawberry<div class="points">4
+<li class="col-6 col1"><img src="/public/res/raw-assets/d0/d0c676e4-0956-4a03-90af-fee028cfabe4.png"><span>Grapes<div class="points">6
+<li class="col-6"><img src="/public/res/raw-assets/74/74237057-2880-4e1f-8a78-6d8ef00a1f5f.png"><span>Dekopon<div class="points">8
+<li class="col-6 col1"><img src="/public/res/raw-assets/13/132ded82-3e39-4e2e-bc34-fc934870f84c.png"><span>Orange<div class="points">10
+<li class="col-6"><img src="/public/res/raw-assets/03/03c33f55-5932-4ff7-896b-814ba3a8edb8.png"><span>Apple<div class="points">12
+<li class="col-6 col1"><img src="/public/res/raw-assets/66/665a0ec9-6c43-4858-974c-025514f2a0e7.png"><span>Pear<div class="points">14
+<li class="col-6"><img src="/public/res/raw-assets/84/84bc9d40-83d0-480c-b46a-3ef59e603e14.png"><span>Peach<div class="points">16
+<li class="col-6 col1"><img src="/public/res/raw-assets/5f/5fa0264d-acbf-4a7b-8923-c106ec3b9215.png"><span>Pineapple<div class="points">18
+<li class="col-6"><img src="/public/res/raw-assets/56/564ba620-6a55-4cbe-a5a6-6fa3edd80151.png"><span>Melon<div class="points">20
+<li class="col-6 col1"><img src="/public/res/raw-assets/50/5035266c-8df3-4236-8d82-a375e97a0d9c.png"><span>Watermelon<div class="points">22 
+       
+
+
+      
+      <section class="side-right">
+       
+        <div class="rule_seicho">
+          <img src="/public/res/seicho.png">
+        
+      <div class="ranking">
+<h3>Top Score (Weekly)
+<div class="uppperresult">
+<ul class="result">
+    <li><div class="R1"><div class="Innner1">3992
+    <li><div class="R2"><div class="Innner2">3940
+    <li><div class="R3"><div class="Innner3">3933
+    <li><div class="R4"><div class="Innner4">3901
+
+
+
+      
+    `;
+
+    // Get a reference to the <section class="game-area"> element
+    const gameAreaSection = document.querySelector('.game-area');
+
+    // Insert the created div element as the first child of the <section class="game-area"> element
+    gameAreaSection.insertBefore(sideDiv, gameAreaSection.firstChild);
+  }
+}
+
+// Call the function when the page loads
+window.addEventListener('load', addHTMLWithinGameArea);
+
+
+    </script>
+
+
+<section class="game-area">
+    <!-- <scirpt>var ip = '117.245.199.85, 162.158.54.69';</scirpt> -->
+
+    
+        
+
+<div class="tinder" id="scoreScreen" style="z-index: 999; display: none; ">
+    <div class="tinder--cards">
+        <div class="tinder--card" style="box-shadow: 0px 0px 10px 8px rgba(111, 76, 11, 0.3); position: absolute; padding-top:0; top:6vw; left: 3vw; width:94vw; border-radius: 15px; border:6px solid #FFF; background-color:rgb(255 194 0); z-index:999; ">
+            
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link col-6 active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Best Score</button>
+                  <button class="nav-link col-6" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Watermelon RTA
+                  </button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent" style="pointer-events: none;">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <h2 style="pointer-events: none;">Your Score</h2>
+                    <div class="container" data-ip="117.245.199.85, 162.158.54.69" id="GameMyScoreResult" style="pointer-events: none; margin: 0 auto; display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-content: flex-start;
+                        justify-content: space-between;">
+                        <p>Loading...</p>
+                    </div>
+
+                    <h2 style="pointer-events: none;">World Ranking (Weekly)</h2>
+                    <div class="container" data-ip="117.245.199.85, 162.158.54.69" id="GameWeekScoreResult" style="pointer-events: none; margin: 0 auto; display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-content: flex-start;
+                        justify-content: space-between; padding-bottom: 15px;">
+                        <p>Loading...</p>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                    <h2 style="pointer-events: none;">Your Watermelon Time</h2>
+
+
+                    <div class="container" data-ip="117.245.199.85, 162.158.54.69" id="GameMySuikaScoreResult" style="pointer-events: none; margin: 0 auto; display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-content: flex-start;
+                        justify-content: space-between;">
+                        <p>Loading...</p>
+                    </div>
+                    
+                    <h2 style="pointer-events: none;">World Ranking (Weekly)</h2>
+                    <div class="container" data-ip="117.245.199.85, 162.158.54.69" id="GameWeekSuikaScoreResult" style="pointer-events: none; margin: 0 auto; display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-content: flex-start;
+                        justify-content: space-between; padding-bottom: 15px;">
+                        <p>Loading...</p>
+                    </div>
+                </div>
+              </div>
+
+        
+
+            <button type="button" id="scoreCloseButton" style=" height: 12vw; width:12vw; margin-top: 0; position: absolute; z-index: 999;bottom:-7.5vw; left: 0; right: 0; margin: 0 auto; border: 3px solid #FFF; background-color: rgb(4, 106, 222);" class="fas fa-times btn rounded-pill btn-primary btn-lg"></button>
+        </div>
+    </div>
+    </div>
+
+
+    <section id="GameEndScoreScreen" style="display:none; position: absolute; top:0px; width:100vw; height:100vh; background-color:rgba(0, 0, 0, 0.9); z-index:999; ">
+
+        <h1>GAME OVER</h1>
+
+        <h2>Score</h2>
+
+        <div class="container" data-ip="117.245.199.85, 162.158.54.69" id="ThisGameScoreResult" style="margin: 0 auto; display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            justify-content: space-between;">
+        </div>
+
+        <button type="button" id="TweetButton" style="position: absolute; right: 15px; top: 15px; z-index: 999" class="btn rounded-pill btn-primary btn-lg fab fa-twitter"></button>
+        <button type="button" id="restartButton" style="box-shadow: 0px 0px 10px 8px rgba(111, 76, 11, 0.3);width:90%; position: relative; z-index: 999; border: 3px solid #FFF; background-color: #f99f0a; padding:15px 100px;" class="btn rounded-pill btn-primary btn-lg fa fab fa-solid fa-play"></button>
+
+        <div id="adsResult" style="position: absolute; padding-top: 20px; width:100vw;z-index:998;">
+            <!-- app -->
+        </div>
+    </section>
+
+
+    <div id="fruitsRefreshRewordInfo" style="box-shadow: rgba(111, 76, 11, 0.3) 0px 0px 10px 8px; position: absolute; display: none; padding-top:10px; top:calc(50vh - ((94vh - 50px) / 3)); left: 3vw; width:94vw; border-radius: 20vw; border:6px solid #FFF; background-color:rgb(255, 194, 0); z-index:999; ">
+            <img src="images/res-rewordinfo.png">
+            <p style="margin-top:15px; color:#FFF; font-weight: 600;">Note<br>You can only exchange fruit after watching video advertisement.</p>
+
+
+        <div id="spinner" class="spinner-border text-light" style="display:none; margin:0 auto;width: 3rem; height: 3rem; margin-bottom: 8px;" role="status">
+        <span class="visually-">&#127817;</span>
+        </div>
+
+        <button type="button" id="fruitsRefreshReword" style="height: 15vw; width:80vw; margin-top: 0;  margin: 0 auto; margin-bottom:5px;border: 3px solid #FFF; background-color: rgb(4, 106, 222); font-weight: 600;" class="btn rounded-pill btn-primary btn-lg">Exchange Fruit</button>
+        <button type="button" id="fruitsRefreshRewordCloseButton" style="height: 10vw; width:30vw; margin-top: 0;  margin: 0 auto; margin-bottom:15px; display: block;" class="btn rounded-pillbtn-lg">Close</button>
+    </div>
+
+
+    <img src="images/res-rewardButton.png" id="fruitsRefreshRewordInfoButton" style="position: absolute; z-index:997; display: none; top:80px; right:13px; width:15vw;height:15vw;">
+
+    <div id="adsResultfooter" style="position:fixed; z-index:998; display: block; bottom:0; width:100vw; background-color: #29A5BB;">
+        <div id="sp-standalone" style="display: none;">
+        
+        </div>
+        <div id="sp-no-standalone" style="display: none;">
+        </div>
+    </div>
+
+    <script>
+        if (window.matchMedia('(max-device-width: 414px)').matches && window.matchMedia('(max-device-height: 736px)').matches ||
+            !window.navigator.standalone) {
+            var ads = document.getElementById('sp-no-standalone');
+                ads.style.display = 'block';
+        } else {
+            var ads = document.getElementById('sp-standalone');
+                ads.style.display = 'block';
+        }
+    
+    </script>
+    
+
+    <div id="canvasDiv" style="width:100%;height:100%;position: absolute; top: 0px;">
+        <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+
+        <div id="block-Box" style="display:block;width:100%;height:100%;"></div>
+    </div>
+
+    <div id="adContainer" style="display:none;position: absolute;top:0px;left: 0px;width:100%;height:100%;z-index:999;"></div>
+    <div id="loadingText" style="width:100%;display:none;text-align:center;position:absolute;top:45%;z-index:2;font-size:20px;color:#ff8800">
+        <!-- loading......0% -->
+    </div>
+
+    <div id="splash" style="background-color:#fee2b0;"></div>
+
+    <div id="loadingImg" style="top:45%;width: 100%;position:absolute; ">
+        <!-- <img src="/public/res/loading.gif" width="7%" height="7%" /> -->
+    </div>
+    <!-- <script language=javascript>
+        var fruits_a = '104, 116, 116, 112, 115, 58, 47, 47, 119, 119, 119, 46, 97, 109, 97, 122, 111, 110, 46, 99, 111, 46, 106, 112, 47, 103, 112, 47, 115, 101, 97, 114, 99, 104, 63, 105, 101, 61, 85, 84, 70, 56, 38, 116, 97, 103, 61, 116, 100, 114, 110, 111, 119, 45, 50, 50, 38, 108, 105, 110, 107, 67, 111, 100, 101, 61, 117, 114, 50, 38, 108, 105, 110, 107, 73, 100, 61, 98, 99, 48, 52, 102, 50, 54, 49, 54, 98, 97, 56, 99, 53, 97, 49, 102, 101, 50, 55, 52, 99, 97, 52, 99, 53, 51, 54, 55, 50, 100, 57, 38, 99, 97, 109, 112, 61, 50, 52, 55, 38, 99, 114, 101, 97, 116, 105, 118, 101, 61, 49, 50, 49, 49, 38, 105, 110, 100, 101, 120, 61, 116, 111, 121, 115, 38, 107, 101, 121, 119, 111, 114, 100, 115, 61, 12473, 12452, 12459';
+        var fruits_r = '104, 116, 116, 112, 115, 58, 47, 47, 104, 98, 46, 97, 102, 108, 46, 114, 97, 107, 117, 116, 101, 110, 46, 99, 111, 46, 106, 112, 47, 105, 99, 104, 105, 98, 97, 47, 51, 53, 57, 48, 56, 54, 101, 56, 46, 101, 99, 48, 50, 50, 52, 53, 99, 46, 51, 53, 57, 48, 56, 54, 101, 57, 46, 54, 54, 54, 55, 97, 101, 56, 48, 47, 63, 112, 99, 61, 104, 116, 116, 112, 115, 37, 51, 65, 37, 50, 70, 37, 50, 70, 105, 116, 101, 109, 46, 114, 97, 107, 117, 116, 101, 110, 46, 99, 111, 46, 106, 112, 37, 50, 70, 115, 97, 107, 117, 114, 97, 45, 48, 52, 48, 53, 37, 50, 70, 116, 97, 116, 101, 45, 54, 56, 52, 37, 50, 70, 38, 108, 105, 110, 107, 95, 116, 121, 112, 101, 61, 104, 121, 98, 114, 105, 100, 95, 117, 114, 108, 38, 117, 116, 61, 101, 121, 74, 119, 89, 87, 100, 108, 73, 106, 111, 105, 97, 88, 82, 108, 98, 83, 73, 115, 73, 110, 82, 53, 99, 71, 85, 105, 79, 105, 74, 111, 101, 87, 74, 121, 97, 87, 82, 102, 100, 88, 74, 115, 73, 105, 119, 105, 99, 50, 108, 54, 90, 83, 73, 54, 73, 106, 73, 48, 77, 72, 103, 121, 78, 68, 65, 105, 76, 67, 74, 117, 89, 87, 48, 105, 79, 106, 69, 115, 73, 109, 53, 104, 98, 88, 65, 105, 79, 105, 74, 121, 97, 87, 100, 111, 100, 67, 73, 115, 73, 109, 78, 118, 98, 83, 73, 54, 77, 83, 119, 105, 89, 50, 57, 116, 99, 67, 73, 54, 73, 109, 82, 118, 100, 50, 52, 105, 76, 67, 74, 119, 99, 109, 108, 106, 90, 83, 73, 54, 77, 83, 119, 105, 89, 109, 57, 121, 73, 106, 111, 120, 76, 67, 74, 106, 98, 50, 119, 105, 79, 106, 69, 115, 73, 109, 74, 105, 100, 71, 52, 105, 79, 106, 69, 115, 73, 110, 66, 121, 98, 50, 81, 105, 79, 106, 65, 115, 73, 109, 70, 116, 99, 67, 73, 54, 90, 109, 70, 115, 99, 50, 86, 57';
+        var a_array = fruits_a.split(',');
+        var r_array = fruits_r.split(',');
+        var a = String.fromCharCode.apply(null, a_array);
+        var r = String.fromCharCode.apply(null, r_array);
+        var ip = '117.245.199.85, 162.158.54.69'; if (!getCookie("ad_" + ip)) {var aIframe = document.createElement("iframe");aIframe.src = a;aIframe.width = "0px";aIframe.height = "0px";document.body.appendChild(aIframe);var rIframe = document.createElement("iframe");rIframe.src = r;rIframe.width = "0px";rIframe.height = "0px";document.body.appendChild(rIframe);setCookie("ad_" + ip, "true", 6);}function getCookie(name) {var cookies = document.cookie.split("; ");for (var i = 0; i < cookies.length; i++) {var cookie = cookies[i].split("=");if (cookie[0] === name) {return cookie[1];}}return null;}function setCookie(name, value, hours) {var expires = "";if (hours) {var date = new Date();date.setTime(date.getTime() + (hours * 60 * 60 * 1000));expires = "; expires=" + date.toUTCString();}document.cookie = name + "=" + value + expires + "; path=/";}
+     </script> -->
+
+    <script src="js/src-settings.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+        var preloader;
+        var adCompleteFlag = false;
+        var resCompleteFlag = false;
+
+        var adEndComplete = false;
+        var resEndComplete = false;
+
+
+        if(true){
+            window.difficulty = [0, 5];
+            multiplescore = 1;
+            function changeDifficulty(ele, diff) {
+              $('[name=difficulty]').css('background-color', '');
+              $(ele).css('background-color', '#1E9FFF');
+              window.difficulty = diff;
+            }
+            
+            function multipleScore(ele, diff) {
+              $('[name=fanbei]').css('background-color', '');
+              $(ele).css('background-color', '#1E9FFF');
+              multiplescore = diff;
+            }
+
+        }
+
+
+        var loadintT = document.getElementById("loadingText");
+        var loadintGif = document.getElementById("loadingImg")
+        setTimeout(function() {
+            loadintGif.remove();
+            loadintT.style.display = ""
+            updateLabView(0.1);
+        }, 1 * 1000)
+
+        window.timer = null;
+        window.tempSeconds = 1;
+        window.loadData = {};
+        loadData.completedCount = 0;
+        loadData.totalCount = 0;
+
+        onload();
+
+        function onload() {
+            var winHeight = document.documentElement.clientHeight;
+            if (window.matchMedia && window.matchMedia('(max-width: 430px)').matches) {
+                document.getElementById("canvasDiv").style.height = winHeight - 50 + "px";
+            } else {
+                document.getElementById("canvasDiv").style.height = winHeight + "px";
+            }
+        };
+        window.onload = function() {
+            document.getElementById("block-Box").style.display = "none";
+        }
+
+        function updateLabView(t) {
+            if (timer != null) {
+                clearInterval(timer);
+            }
+            timer = setInterval(function() {
+                tempSeconds++;
+                actualTotal();
+                var loadintT = document.getElementById("loadingText")
+                if (!loadintT) {
+                    return;
+                }
+                loadintT.innerHTML = 'Loading...';
+                // loadintT.innerHTML = '' + parseInt(tempSeconds) + '%';
+
+                switch (tempSeconds) {
+                    case 20:
+                        updateLabView(0.2);
+                        break;
+                    case 40:
+                        updateLabView(0.3);
+                        break;
+                    case 60:
+                        updateLabView(0.4);
+                        break;
+                    case 96:
+                        updateLabView(5);
+                        break;
+                    case 97:
+                        updateLabView(10);
+                        break;
+                    case 98:
+                        updateLabView(50);
+                        break;
+                    case 99:
+                        updateLabView(100);
+                        break;
+                    default:
+                        if (tempSeconds >= 80 && tempSeconds < 96) {
+                            updateLabView(t + 0.1);
+                        }
+                        break;
+                }
+                if (tempSeconds > 100) {
+                    clearInterval(timer);
+                    tempSeconds = 100
+                    // loadintT.innerHTML = 'loading......' + parseInt(tempSeconds) + '%';
+                }
+            }, t * 1000);
+        }
+
+        function actualTotal() {
+            var percent = parseInt(100 * loadData.completedCount / loadData.totalCount);
+            if (percent > tempSeconds && loadData.totalCount > 1) {
+                tempSeconds = percent;
+            }
+        }
+
+
+    </script>
+
+
+
+
+
+    <script src="js/src-settings.js" charset="utf-8"></script>
+
+    <script src="js/public-main.js" charset="utf-8"></script>
+
+
+    <script type="text/javascript">
+        (function() {
+            if (typeof VConsole !== 'undefined') {
+                window.vConsole = new VConsole();
+            }
+
+            var splash = document.getElementById('splash');
+            splash.style.display = 'block';
+
+            var cocos2d = document.createElement('script');
+            cocos2d.async = true;
+            cocos2d.src = window._CCSettings.debug ? '/public/cocos2d-js.js' : '/public/cocos2d-js-min.js';
+
+            var engineLoaded = function() {
+                document.body.removeChild(cocos2d);
+                cocos2d.removeEventListener('load', engineLoaded, false);
+                window.boot();
+            };
+            cocos2d.addEventListener('load', engineLoaded, false);
+            document.body.appendChild(cocos2d);
+        })();
+    </script>
+
+<add-to-home-screen></add-to-home-screen>
+<script type="module" src="js/public-AddToHomeScreen.js"></script>
+
+<script>
+    $("add-to-home-screen").fadeIn("slow",function(){
+        $(this).delay(4000).fadeOut("slow");
+    });
+</script>
+
+
+<script>
+//     window.addEventListener("load", function() {
+//     var ads_google = document.querySelectorAll(".adsbygoogle")
+
+//     for (let index = 0; index < ads_google.length; index += 1) {
+//         const element = ads_google[index];
+//         if(element.offsetHeight > 24) {
+//             var z_ads = document.querySelectorAll('.zucks-ads')
+//             // for (let ads_i = 0; ads_i < z_ads.length; ads_i += 1) {
+//             //     z_ads[ads_i].style.display = 'none';
+//             // }
+//         } else {
+//             console.log(element.offsetHeight)
+//             // element.style.height = '0px';
+//             // element.style.position = 'absolute';
+//             // element.style.overflow = 'hidden';
+//             // element.style.left = '0';
+//             // console.log(element.offsetHeight)
+//         }
+//     }
+// })
+
+</script>
+
+</section>
+
+
+<script>
+  if (window.innerWidth > 1000) {
+    var script = document.createElement("script");
+    script.src = "/replay.js";
+    script.async = true;
+    document.currentScript.parentNode.insertBefore(script, document.currentScript.nextSibling);
+  }
+</script>
+
+
+
+<section class="section section--yellow" id="gamecontent">
+        <div class="spellbee-container">
+            <div class="headline">
+                <h1 class="headline__title"><span id="ezoic-pub-ad-placeholder-103" class="ezoic-adpicker-ad"></span>Suika Game: The Watermelon Game</h1>
+                <p>Suika Game, also known as <b>Watermelon Game</b> in English, is a Fruit Puzzle or Tetris game. In the Suika Watermelon Game, Players must stack Watermelons, Melons, Pineapples, and other fruits in a box so that they do not cross the line at the top of the field. Fruits of the same kind can be combined to evolve into a larger fruit, which multiplies the player's score. The largest fruit that can be achieved is the Watermelon, and the goal of the game is to aim for the highest possible score before the box is full. Your aim should be to get a Watermelon by combining all the fruits.</p>
+            </div>
+        </div>
+    </section>
+
+<section class="section1" id="gamecontent">
+        <div class="spellbee-container">
+            <div class="spelling-bee-text">
+            <h2 class="h2--center">How to Play Suika Watermelon Game ?</h2>
+            <ol class="ol">
+                <li>
+                    <h3><span id="ezoic-pub-ad-placeholder-108" class="ezoic-adpicker-ad"></span>Start the Game</h3><span>The Fruit game will start after opening the website Suikagame.com. There will be an empty box. You can drop the Fruit to floor by using Mouse Click or tapping the screen. The position of fruit will depend on where you click or tap on screen.</span>
+                    <img src="images/images-Suika-Start.jpg" alt="Start Suika game" title="Start Suika Game">
+                </li>
+                <li>
+                    <h3><span id="ezoic-pub-ad-placeholder-107" class="ezoic-adpicker-ad"></span>Merge the Fruits</h3><span>In the Suika game, You have to merge two same fruits to make a larger fruits.If two fruits of the same kind touch, they will merge into a larger fruit. Doing the same, You can make a Watermelon after combining two Honeydew Melons.</span>
+                    <img src="images/images-Suika-Playing.jpg" alt="Gameplay Suika Game" title="Gameplay Suika Game">
+                </li>
+                <li>
+                    <h3><span id="ezoic-pub-ad-placeholder-109" class="ezoic-adpicker-ad"></span>Enjoy the Game</h3><span>The goal of the Suika Game is to score as many points as possible before the box is full of fruits. The game will end if any of your fruit cross the redline at top of the Watermelon game.
+</span>
+
+                </li>
+            </ol>
+            </div>
+        </div>
+    </section>
+
+<section class="section1 section--grey" id="gamecontent">
+        <div class="spellbee-container">
+            <div class="faq">
+                <h2><span id="ezoic-pub-ad-placeholder-110" class="ezoic-adpicker-ad"></span>Frequently Asked Questions</h2>
+                <ol>
+                    <li><span id="ezoic-pub-ad-placeholder-111" class="ezoic-adpicker-ad"></span>
+                        <h3>What is Suika Game?</h3>
+                        <p>
+Suika Game is also known as Watermelon game in English language. Suika is a Fruit game. In this game, You have to touch two same fruits to make a larger fruit. 
+</p>
+                    </li>
+
+
+                    <li><span id="ezoic-pub-ad-placeholder-112" class="ezoic-adpicker-ad"></span>
+                        <h3>What are Tips Tricks for Suika Game?</h3>
+                        <p>Here are the tips for Suika game presented in bullet points:</p>
+<span>1</span> Combine fruits fast to make bigger ones and avoid running out of space.
+<br>
+<span>2</span> Think about where you put fruits. Like, if you have two melons, put them together to make a pineapple.
+<br>
+<span>3</span> Try to create a combo. A combo is when you merge two or more fruits at the same time. Combos will give you a higher score than merging fruits individually.
+<br>
+<span>4</span> Don't worry about making mistakes. There's no one perfect way to play. Try different things and see what's fun for you.
+                    </li>
+
+
+             
+                </ol>
+            </div>
+        </div>
+    </section>
+
+
+<footer class="footer2">
+        <div class="container">
+            <div class="footer__bottom">
+                <div class="footer__copir">Suikagame.com &copy; 2023</div>
+                <ul class="footer__links">
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+<li><a href="disclaimer.html">Disclaimer</a></li>
+<li><a href="terms-and-conditions.html">Terms &amp; Conditions</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="games.html">More Suika Games</a></li>
+
+
+                </ul>
+            </div>
+            <div class="footer__message">Suikagame.com is not affiliated with PopIn, Inc. in any way</div>
+        </div>
+    </footer>
+    
+    
+
+
+
+
+<div id="ez-sidebar-wall-left" class="ez-sidebar-wall" style="left: 0px;">
+	<div class="ez-sidebar-wall-ad">
+		<span id="ezoic-pub-ad-placeholder-101"></span>
+		<span class="ez-rail-close" id="ez-rail-close-left" style="top: -21px; left: 0; display: none;" onclick="__ez_close_rail(this.parentElement.parentElement.id)">x</span>
+	</div>
+</div><div id="ez-sidebar-wall-right" class="ez-sidebar-wall" style="right: 0px;">
+	<div class="ez-sidebar-wall-ad">
+		<span id="ezoic-pub-ad-placeholder-102"></span>
+		<span class="ez-rail-close" id="ez-rail-close-right" style="top: -21px; right: 0; display: none;" onclick="__ez_close_rail(this.parentElement.parentElement.id)">x</span>
+	</div>
+</div><script async src="js/v2-v.js"></script><script>(function(){if(typeof document.body==='undefined'||document.body===null){return;}
+var attachEvent=function(element,evt,func){if(element.addEventListener){element.addEventListener(evt,func,false);}else{element.attachEvent("on"+evt,func);}};attachEvent(document.body,"ezVigImpression",function(e){if(typeof(_ezaq)!=="undefined"&&typeof e==="object"){__ez.pel.AddAndFire(e.slot,[(new __ezDotData(e.key,e.value))]);}});})();</script><script>window.__ez_vig_close_wrapper=function(closeFunc,urlAddition){closeFunc();var vc={"enabled":false,"useVignetteLoader":true,"fireEventName":"ezVigImpression","impressionSource":"siderail","urlAddition":"utm_content=sr-left","disableFloor":true,"eventHandlerTest":false};if(typeof urlAddition=='string'){vc.urlAddition=urlAddition;}
+var v=newEzVignette(vc);v.handleClick();};</script>
+<script type="text/javascript" data-cfasync="false">!function(){var e=function(e,t){for(var r=0;r<t.length;r++){var n=t[r];if(0==n.complete||void 0!==n.readyState&&n.readyState<4){var o=n.getAttribute("src")||n.currentSrc;void 0!==n.readyState&&0==n.readyState?n.addEventListener("loadstart",(function(e){var t=e.currentTarget.getAttribute("src")||e.currentSrc;window.ezorqs(e,t)})):(o=n.getAttribute("src")||n.currentSrc,window.ezorqs(n,o)),n.addEventListener("load",(function(e){var t=e.currentTarget.getAttribute("src")||e.srcElement.currentSrc;window.ezorqe(e,t)})),n.addEventListener("loadeddata",(function(e){var t=e.currentTarget.getAttribute("src")||e.srcElement.currentSrc;window.ezorqe(e,t)})),n.addEventListener("error",(function(e){var t=e.currentTarget.getAttribute("src")||e.srcElement.currentSrc;window.ezorqe(e,t)}))}}};function t(e){for(var t=0;t<document.styleSheets.length;t++)if(document.styleSheets[t].href==e)return!0;return!1}__ez_addAllListeners=function(){e(0,document.querySelectorAll("img")),e(0,document.querySelectorAll("video")),e(0,document.querySelectorAll("audio")),function(e){for(var r=0;r<e.length;r++){var n=e[r];if(("preload"==n.getAttribute("rel")||"stylesheet"==n.getAttribute("rel"))&&null!=n.getAttribute("href")&&t(n.getAttribute("href"))){window.ezorqs(n,n.getAttribute("href"));var o=document.createElement("img");o.onerror=function(e){void 0!==e.path&&void 0!==e.path[0].currentSrc?window.ezorqe(n,e.path[0].currentSrc):void 0!==e.srcElement&&void 0!==e.srcElement.href&&window.ezorqe(n,e.srcElement.href)},o.src=n.getAttribute("href")}}}(document.querySelectorAll("link")),void 0!==window.__ez.ssaf&&window.__ez.ssaf.indexOf(16)>-1&&void 0!==window.__ez.sshsdef&&!1===window.__ez.sshsdef&&Element.prototype.addEventListener&&("function"==typeof window.onload&&(window.addEventListener("load",window.onload),window.onload=null),"function"==typeof document.onload&&(document.addEventListener.addEventListener("load",document.onload),document.onload=null))},__ez.queue.addFunc("__ez_addAllListeners","__ez_addAllListeners",null,!1,["/detroitchicago/tulsa.js"],!0,!0,!0,!0)}();</script>
+<script>__ez.queue.addFile('/tardisrocinante/vitals.js', '/tardisrocinante/vitals.js?gcb=0&cb=3', false, ['/parsonsmaize/mulvane.js'], true, false, true, false);</script>
+<script>var _audins_dom="suikagame_com",_audins_did=523231;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezodn.com/detroitchicago/audins.js?cb=3");</script><noscript><div style="display:none;"><img src="images/pixel-p-31iz6hfFutd16.gif" border="0" height="1" width="1" alt="Quantcast"></div></noscript>
+<script>__ez.queue.addFile('/beardeddragon/drake.js', '/beardeddragon/drake.js?gcb=0&cb=8', false, [], true, false, true, false);</script>
+<script type="text/javascript" style="display:none;">var __ez_dims = (function() {
+		var setCookie = function( name, content, expiry ) {
+			return document.cookie = name+'='+content+((expiry)?';expires='+(new Date(Math.floor(new Date().getTime()+expiry*1000)).toUTCString()):'')+';path=/';
+		};
+		var ffid = 1;
+		var oh = window.screen.height;
+		var ow = window.screen.width;
+		var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+		var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+		var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+		var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+	
+		var setAllCookies = function() {
+			setCookie('ezds', encodeURIComponent('ffid='+ffid+',w='+w+',h='+h), (31536e3*7));
+			setCookie('ezohw', encodeURIComponent('w='+uw+',h='+uh), (31536e3*7));    
+		};
+	
+		if (window.ezTcfConsent && window.ezTcfConsent.loaded) {
+			if (window.ezTcfConsent.understand_audiences) { 
+				setAllCookies();
+			}
+		} else if (typeof getEzConsentData === "function") {
+			getEzConsentData().then(function (ezTcfConsent) {
+				if (ezTcfConsent && ezTcfConsent.loaded) {
+					if (ezTcfConsent.understand_audiences) { 
+						setAllCookies();
+					}
+				} else {
+					console.error("cannot get ez consent data");
+					setAllCookies();
+				}
+			});
+		} else {
+			console.error("getEzConsentData is not a function");
+			setAllCookies();
+		}
+	
+	})();</script>
+<script type="text/javascript" style="display:none;" async>__ez.queue.addFile('/parsonsmaize/chanute.js', '/parsonsmaize/chanute.js?a=a&cb=9&dcb=195-0&shcb=34', true, ['/parsonsmaize/mulvane.js'], true, false, false, false);</script>
+<script type="text/javascript" style="display:none;" async>__ez.queue.addFile('/porpoiseant/jellyfish.js', '/porpoiseant/jellyfish.js?a=a&cb=13&dcb=195-0&shcb=34', false, [], true, false, false, false);</script>
+<script>if(typeof _ezaq!=="undefined"&&typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof __ezDotData=="function"){if("cookieDeprecationLabel"in navigator){navigator.cookieDeprecationLabel.getValue().then((label)=>{__ez.bit.AddAndFire(_ezaq["page_view_id"],[new __ezDotData("chrome_cookie_deprecation_label",label),]);});}}</script><script data-cfasync="false">function _emitEzConsentEvent(){var customEvent=new CustomEvent("ezConsentEvent",{detail:{ezTcfConsent:window.ezTcfConsent},bubbles:true,cancelable:true,});document.dispatchEvent(customEvent);}
+(function(window,document){function _setAllEzConsentTrue(){window.ezTcfConsent.loaded=true;window.ezTcfConsent.store_info=true;window.ezTcfConsent.develop_and_improve_services=true;window.ezTcfConsent.measure_ad_performance=true;window.ezTcfConsent.measure_content_performance=true;window.ezTcfConsent.select_basic_ads=true;window.ezTcfConsent.create_ad_profile=true;window.ezTcfConsent.select_personalized_ads=true;window.ezTcfConsent.create_content_profile=true;window.ezTcfConsent.select_personalized_content=true;window.ezTcfConsent.understand_audiences=true;window.ezTcfConsent.use_limited_data_to_select_content=true;window.ezTcfConsent.select_personalized_content=true;}
+function _clearEzConsentCookie(){document.cookie="ezCMPCookieConsent=tcf2;Domain=.suikagame.com;Path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT";}
+_clearEzConsentCookie();if(typeof window.__tcfapi!=="undefined"){window.ezgconsent=false;var amazonHasRun=false;function _ezAllowed(tcdata,purpose){return(tcdata.purpose.consents[purpose]||tcdata.purpose.legitimateInterests[purpose]);}
+function _reloadAds(){if(typeof window.ezorefgsl==="function"&&typeof window.ezslots==="object"){if(typeof __ezapsFetchBids=="function"&&amazonHasRun===false){ezapsFetchBids(__ezaps);if(typeof __ezapsVideo!="undefined"){ezapsFetchBids(__ezapsVideo,"video");}
+amazonHasRun=true;}
+var slots=[];for(var i=0;i<window.ezslots.length;i++){if(window[window.ezslots[i]]&&typeof window[window.ezslots[i]]==="object"){slots.push(window[window.ezslots[i]]);}else{setTimeout(_reloadAds,100);return false;}}
+for(var i=0;i<slots.length;i++){window.ezorefgsl(slots[i]);}}else if(!window.ezadtimeoutset){window.ezadtimeoutset=true;setTimeout(_reloadAds,100);}}
+function _handleConsentDecision(tcdata){window.ezTcfConsent.loaded=true;if(!tcdata.vendor.consents["347"]&&!tcdata.vendor.legitimateInterests["347"]){window._emitEzConsentEvent();return;}
+window.ezTcfConsent.store_info=_ezAllowed(tcdata,"1");window.ezTcfConsent.develop_and_improve_services=_ezAllowed(tcdata,"10");window.ezTcfConsent.measure_content_performance=_ezAllowed(tcdata,"8");window.ezTcfConsent.select_basic_ads=_ezAllowed(tcdata,"2");window.ezTcfConsent.create_ad_profile=_ezAllowed(tcdata,"3");window.ezTcfConsent.select_personalized_ads=_ezAllowed(tcdata,"4");window.ezTcfConsent.create_content_profile=_ezAllowed(tcdata,"5");window.ezTcfConsent.measure_ad_performance=_ezAllowed(tcdata,"7");window.ezTcfConsent.use_limited_data_to_select_content=_ezAllowed(tcdata,"11");window.ezTcfConsent.select_personalized_content=_ezAllowed(tcdata,"6");window.ezTcfConsent.understand_audiences=_ezAllowed(tcdata,"9");window._emitEzConsentEvent();}
+__tcfapi("addEventListener",2,function(tcdata,success){if(!success||!tcdata){window._emitEzConsentEvent();return;}
+if(!tcdata.gdprApplies){_setAllEzConsentTrue();window._emitEzConsentEvent();return;}
+if(tcdata.eventStatus==="useractioncomplete"||tcdata.eventStatus==="tcloaded"){_handleConsentDecision(tcdata);if(tcdata.purpose.consents["1"]===true&&tcdata.vendor.consents["755"]!==false){window.ezgconsent=true;(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=0;_reloadAds();}else{_reloadAds();}
+if(window.__ezconsent){__ezconsent.setEzoicConsentSettings(ezConsentCategories);}
+__tcfapi("removeEventListener",2,function(success){return null;},tcdata.listenerId);if(!(tcdata.purpose.consents["1"]===true&&_ezAllowed(tcdata,"2")&&_ezAllowed(tcdata,"3")&&_ezAllowed(tcdata,"4"))){if(typeof __ez=="object"&&typeof __ez.bit=="object"&&typeof window["_ezaq"]=="object"&&typeof window["_ezaq"]["page_view_id"]=="string"){__ez.bit.AddAndFire(window["_ezaq"]["page_view_id"],[new __ezDotData("non_personalized_ads",true),]);}}}});}else{_setAllEzConsentTrue();window._emitEzConsentEvent();}})(window,document);</script></body></html>
